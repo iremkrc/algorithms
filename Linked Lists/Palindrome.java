@@ -22,7 +22,7 @@ public class Palindrome {
     // 1->3->2->4->6
     
     //Stack: 1 3  
-    // Time Complexity: O(N), Space Complexity: O(N);
+    // Time Complexity: O(N), Space Complexity: O(N)
     public static boolean isPalindromeUsingStack(Node head){
     	Stack<Integer> stack = new Stack<>();
     	Node ptr1 = head;
